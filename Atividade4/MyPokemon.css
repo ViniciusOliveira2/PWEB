@@ -1,0 +1,173 @@
+
+body {
+background: #FFFFFF url(fundo.jpg);
+background-size: cover;
+font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+sans-serif;
+line-height: 1.5;
+}
+
+.container {
+margin: 0 auto;
+width: 960px;
+}
+
+article {
+background-color: #FFFFFF;
+border: 2px solid #CCC;
+border-color: #CCC #999 #999 #CCC;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+article h2 {
+border-bottom: 1px dashed #4672AD;
+margin: 0;
+}
+
+article img {
+border: 1px solid #4672AD;
+float: left;
+margin: 10px 10px 0 0;
+padding: 2px;
+width: 160px;
+height: 160px;
+}
+
+article a {
+color: #2C88A7;
+font-weight: bold;
+}
+
+header h1 a {
+color: #FFFFFF;
+text-decoration: none;
+margin-left:250px;
+}
+
+.clear {
+clear: both;
+}
+
+footer {
+font-size: 12px;
+text-align: center;
+}
+
+section {
+float: left;
+width: 660px;
+}
+
+aside {
+background-color: #FFFFFF;
+border: 1px solid #4672AD;
+padding: 10px;
+float: right;
+width: 260px;
+}
+
+aside h3 {
+font-size: 14px;
+margin-top: 0;
+}
+
+aside ol {
+font-size: 12px;
+}
+
+.dragon{
+    width: 120px;
+    height: 28px;
+	border-radius: 15px;
+	background: #7038F8;
+    border: 2x solid #A27DFA;
+    color: white;
+    padding: 4px;
+    float: left;
+}
+
+.dragon p{
+    margin: 4px;
+    text-align: center;
+}
+
+.ground{
+    width: 120px;
+    height: 28px;
+	border-radius: 15px;
+	background: #E0C068;
+    border: 2x solid #EBD69D;
+    color: white;
+    padding: 4px;
+    float: left;
+}
+
+.ground p{
+    margin: 4px;
+    text-align: center;
+}
+
+.fighting{
+    width: 120px;
+    height: 28px;
+	border-radius: 15px;
+	background: #C03028;
+    border: 2x solid #7D1F1A;
+    color: white;
+    padding: 4px;
+    float: left;
+}
+
+.fighting p{
+    margin: 4px;
+    text-align: center;
+}
+
+.steel{
+    width: 120px;
+    height: 28px;
+	border-radius: 15px;
+	background: #B8B8D0;
+    border: 2x solid #787887;
+    color: white;
+    padding: 4px;
+    float: left;
+}
+
+.steel p{
+    margin: 4px;
+    text-align: center;
+}
+
+.psychic{
+    width: 120px;
+    height: 28px;
+	border-radius: 15px;
+	background: #F85888;
+    border: 2x solid #A13959;
+    color: white;
+    padding: 4px;
+    float: left;
+}
+
+.psychic p{
+    margin: 4px;
+    text-align: center;
+}
+
+.fairy{
+    width: 120px;
+    height: 28px;
+	border-radius: 15px;
+	background: #EE99AC;
+    border: 2x solid #9B6470;
+    color: white;
+    padding: 4px;
+    float: left;
+}
+
+.fairy p{
+    margin: 4px;
+    text-align: center;
+}
