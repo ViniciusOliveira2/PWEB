@@ -1,0 +1,98 @@
+.todo{
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.topo{
+    width: 1000px;
+    height: 100px;
+    background-color: royalblue;
+} 
+
+.logo{
+    width:60px;
+    height:60px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 20px;
+    float:left;
+}
+
+.menu {
+    width: 42px;
+    height: 7px;
+    background-color: white;
+    margin: 8px 0;
+    float:none;
+}
+
+.juncao{
+    float: right;
+    margin-top: -73px;
+    margin-right: 10px;
+    border: 1px white;
+}
+
+/* testes */
+
+.miolo {
+	float: left;
+	width: 792px;
+	min-height: 800px;
+	border: 0px solid black;
+}
+
+.direita {
+	background: url(AD.gif);
+    background-size: 200px 900px;
+    float: right;
+	width: 200px;
+	height: 900px;
+}
+
+.a {
+    width: 740;
+}
+
+.bigbox {
+    background: url(noticia1.jpg);
+    background-size: 740px 400px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 400px;
+    float: left;
+}
+
+.b{
+    width: 226;
+}
+
+.smallbox1{
+    background: url(noticia2.jpg);
+    background-size: 226px 400px;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 400px;
+    float: left;
+}
+
+.smallbox2{
+    background: url(noticia3.jpg);
+    background-size: 226px 400px;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 400px;
+    float: left;
+}
+
+.smallbox3{
+    background: url(noticia4.jpg);
+    background-size: 226px 400px;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 400px;
+    float: left;
+}
