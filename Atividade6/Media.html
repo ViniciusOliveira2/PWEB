@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade 6 - pt. 1</title>
+
+        <script>
+            var nome;
+            var nota1, nota2, nota3;
+            var media;
+
+            nome = prompt("Qual é o seu nome?");
+            nota1 = prompt("Informe a primeira nota");
+            nota2 = prompt("Informe a segunda nota");
+            nota3 = prompt("Informe a terceira nota");
+
+            var calcMedia = function (n1, n2, n3){
+                return (n1 + n2 + n3) / 3;
+            };
+
+            media = calcMedia(parseFloat(nota1), parseFloat(nota2), parseFloat(nota3));
+
+            alert("A média do aluno(a) " + nome + " é " + media);
+
+        </script>
+    </head>
+
+    <body>
+    </body>
+
+</html>

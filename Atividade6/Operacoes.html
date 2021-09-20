@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade 6 - pt. 2</title>
+
+        <script>
+            var num1, num2;
+            var soma, subtracao, produto, divisao, resto;
+
+            num1 = prompt("Informe o primeiro valor");
+            num2 = prompt("Informe o segundo valor");
+
+            var calcSoma = function (n1, n2){
+                return n1 + n2;
+            }
+
+            var calcSub = function (n1, n2){
+                return n1 - n2;
+            }
+
+            var calcProd = function (n1, n2){
+                return n1 * n2;
+            }
+
+            var calcDiv = function (n1, n2){
+                return n1 / n2;
+            }
+
+            var calcResto = function (n1, n2){
+                return n1 % n2;
+            }
+
+            num1 = parseFloat(num1);
+            num2 = parseFloat(num2);
+
+            soma = calcSoma(num1, num2);
+            subtracao = calcSub(num1, num2);
+            produto = calcProd(num1, num2);
+            divisao = calcDiv(num1, num2);
+            resto = calcResto(num1,num2);
+
+            alert("Soma = " + soma + "\nSubtracao = " + subtracao + "\nProduto = " + produto + "\nDivisao = " + divisao + "\nResto = " + resto);
+        </script>
+    </head>
+
+    <body>
+    </body>
+
+</html>
